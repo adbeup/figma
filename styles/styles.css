@@ -4,7 +4,9 @@
         /* header */
         
         .header {
+            width: 100%;
             background: rgba(255, 113, 67, 0.27);
+            margin-bottom: 80px;
         }
         
         header,
@@ -63,23 +65,31 @@
             background: #f75924;
             transition: 500ms
         }
-        /* section */
+        /* section 1 */
         
         section {
+            max-width: 80%;
+            margin: auto;
             display: flex;
+            margin-bottom: 40px;
         }
         
         section div {
             margin: auto;
         }
         
-        h1 {
+        .first-section,
+        .second-section {
+            max-width: 50%;
+        }
+        
+        h2 {
             font-weight: 700;
             font-size: 80px;
             line-height: 77px;
             letter-spacing: -2.50105px;
             color: #19191B;
-            margin-bottom: 30px;
+            margin: 0;
         }
         
         p {
@@ -103,7 +113,6 @@
             border-radius: 10px;
             transition: 500ms;
             cursor: pointer;
-            margin: auto;
             border-color: #5454D4;
         }
         
@@ -114,10 +123,6 @@
         
         .button {
             display: flex;
-        }
-        
-        .one button {
-            margin-right: 35.6px;
         }
         
         .right-button {
@@ -132,16 +137,177 @@
             border-radius: 10px;
             transition: 500ms;
             cursor: pointer;
-            margin: auto;
+            margin-left: 2%;
         }
         
         .right-button:hover {
             background: #eaf6ff;
             transition: 500ms
         }
+        /* section 2 */
         
-        .first-man {
-            margin-left: 110px;
+        h3 {
+            font-weight: 500;
+            font-size: 50px;
+            line-height: 66px;
+            letter-spacing: -2.50105px;
+            color: #19191B;
+            margin-bottom: 10px;
+        }
+        
+        .user p {
+            letter-spacing: -0.625263px;
+            color: #696871;
+            margin: 0;
+        }
+        
+        .Subscription {
+            display: flex;
+        }
+        
+        input {
+            width: 190px;
+            height: 60px;
+            font-size: 17px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: -0.531474px;
+            color: #FFFFFF;
+            border-radius: 10px;
+            transition: 500ms;
+            cursor: pointer;
+            border-color: #5454D4;
+            margin-right: 10px;
+        }
+        
+        .try {
+            width: 185px;
+            margin-top: 30px;
+        }
+        
+        .second-section,
+        .index {
+            max-width: 50%;
+        }
+        /* section 3 */
+        
+        .sectiontree {
+            display: block;
+        }
+        
+        .sectiontree h3 {
+            margin-bottom: 40px;
+        }
+        
+        .tree {
+            display: flex;
+        }
+        
+        .Starter {
+            background: #F8F8F8;
+            border-radius: 10px;
+            width: 240px;
+        }
+        
+        .Starter p {
+            font-weight: 100;
+            font-size: 17px;
+            line-height: 26px;
+            color: #696871;
+            margin-bottom: 20px;
+            text-align: center
+        }
+        
+        .Starter h3 {
+            margin: 0;
+            text-align: center;
+        }
+        
+        .Starter button {
+            background-color: #FFFFFF;
+            color: #5454D4;
+            border: none;
+            width: 200px;
+            height: 66px;
+            margin: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+        
+        .Starter button:hover {
+            background: #aedcff3a;
+            transition: 500ms
+        }
+        
+        .Premium {
+            background: #FF7143;
+            border-radius: 10px;
+            width: 240px;
+        }
+        
+        .Premium p {
+            font-weight: 100;
+            font-size: 17px;
+            line-height: 26px;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+            text-align: center
+        }
+        
+        .Premium h3 {
+            margin: 0;
+            color: #FFFFFF;
+            text-align: center
+        }
+        
+        .Premium button {
+            background-color: #9F3919;
+            color: #FFFFFF;
+            border: none;
+            margin: auto;
+            display: block;
+            width: 200px;
+            margin-bottom: 20px;
+        }
+        
+        .Premium button:hover {
+            background: #e26d4a;
+            transition: 500ms
+        }
+        
+        .Enterprise {
+            background: #F8F8F8;
+            border-radius: 10px;
+            width: 240px;
+        }
+        
+        .Enterprise p {
+            font-weight: 100;
+            font-size: 17px;
+            line-height: 26px;
+            color: #696871;
+            margin-bottom: 20px;
+            text-align: center
+        }
+        
+        .Enterprise h3 {
+            margin: 0;
+            text-align: center;
+        }
+        
+        .Enterprise button {
+            background-color: #FFFFFF;
+            color: #5454D4;
+            border: none;
+            margin: auto;
+            display: block;
+            width: 200px;
+            margin-bottom: 20px
+        }
+        
+        .Enterprise button:hover {
+            background: #aedcff3a;
+            transition: 500ms
         }
         /* footer */
         
